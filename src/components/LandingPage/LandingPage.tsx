@@ -3,44 +3,67 @@ import "./LandingPage.css";
 function LandingPage() {
   return (
     <main className="landing-page">
-      <div className="hero">
-        <h1>AdaptEd</h1>
-        <p className="tagline">
-          Personalized learning for every student.
-        </p>
+
+      <section className="hero">
+
+        <div className="logo-circle">
+          🌱
+        </div> 
+
+        <h1>Project Name</h1>
+
+        <h2>
+          Learn in the way that works best for you.
+        </h2>
 
         <p className="description">
-          Make educational content more accessible by simplifying text,
-          explaining difficult vocabulary, and adapting information to your
-          learning needs.
+          Reading support that adapts educational content
+          to your learning needs through accessible,
+          personalized learning tools.
         </p>
 
-        <button className="start-button">
+        <button className="primary-button">
           Get Started
         </button>
-      </div>
+
+      </section>
 
       <section className="features">
+
         <div className="feature-card">
-          <h3>📖 Simplify</h3>
-          <p>Rewrite complex educational text into clear, readable language.</p>
+          <span>📖</span>
+          <h3>Make Reading Easier</h3>
+          <p>
+            Simplify educational text while preserving meaning.
+          </p>
         </div>
 
         <div className="feature-card">
-          <h3>📝 Explain</h3>
-          <p>Define difficult vocabulary with simple, student-friendly explanations.</p>
+          <span>💬</span>
+          <h3>Explain Difficult Words</h3>
+          <p>
+            Receive simple explanations for unfamiliar vocabulary.
+          </p>
         </div>
 
         <div className="feature-card">
-          <h3>⭐ Summarize</h3>
-          <p>Highlight the key ideas so students can focus on what matters most.</p>
+          <span>✨</span>
+          <h3>Highlight Key Ideas</h3>
+          <p>
+            Quickly identify the most important concepts.
+          </p>
         </div>
 
         <div className="feature-card">
-          <h3>♿ Accessibility</h3>
-          <p>Adapt content to support different learning styles and accessibility needs.</p>
+          <span>➗</span>
+          <h3>Math Support</h3>
+          <p>
+            Break down equations into easy-to-follow steps.
+          </p>
         </div>
+
       </section>
+
     </main>
   );
 }
