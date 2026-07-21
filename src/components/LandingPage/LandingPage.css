@@ -19,9 +19,16 @@ body {
   align-items: center;
 }
 
-.hero {
-  max-width: 650px;
-  text-align: center;
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 12px;
+    color: #1F2937;
+}
+
+.hero h2 {
+  font-size: 18px;
+  color: #6B7280;
+  margin-bottom: 36px;
 }
 
 .logo-circle {
