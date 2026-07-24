@@ -1,6 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import "./LandingPage.css";
 
+
 function LandingPage() {
+    const navigate = useNavigate();
   return (
     <main className="landing-page">
 
@@ -22,7 +25,10 @@ function LandingPage() {
           personalized learning tools.
         </p>
 
-        <button className="primary-button">
+        <button 
+        className="primary-button"
+        onClick = { () => navigate("/preferences")}
+       >
           Get Started
         </button>
 
