@@ -10,7 +10,7 @@ function LandingPage() {
           🌱
         </div> 
 
-        <h1>Welcome</h1>
+        <h1>Welcome</h1>  
 
         <h2>
           Learn in the way that works best for you.
