@@ -1,6 +1,8 @@
 import "./ReadingMode.css";
+import { useNavigate } from "react-router-dom";
 
 function ReadingMode() {
+    const navigate = useNavigate();
   return (
     <main className="reading-page">
       <header className="reading-header">
@@ -9,7 +11,8 @@ function ReadingMode() {
           <h1>Let's make this easier to read.</h1>
         </div>
 
-        <button className="secondary-button">
+        <button className="secondary-button"
+        onClick ={() => navigate("/preferences")}>
           Exit Reading Mode
         </button>
       </header>
