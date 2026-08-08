@@ -1,0 +1,116 @@
+.vocabulary-page {
+  min-height: 100vh;
+  padding: 40px 48px;
+  background: #F8F7FC;
+  color: #1F2937;
+}
+
+.vocabulary-header {
+  max-width: 1100px;
+  margin: 0 auto 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vocabulary-header h1 {
+  max-width: 650px;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+.eyebrow {
+  margin-bottom: 6px;
+
+  color: #6D5EF9;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.vocabulary-layout {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 320px;
+
+  gap: 28px;
+  align-items: start;
+}
+
+.vocabulary-content {
+  background: #FFFFFF;
+
+  padding: 48px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.vocabulary-content .subject {
+  margin-bottom: 8px;
+
+  color: #6D5EF9;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.vocabulary-content h2 {
+  margin-bottom: 24px;
+
+  font-size: 30px;
+}
+
+.vocabulary-content p {
+  margin-bottom: 24px;
+}
+
+.word-explanation {
+  background: #FFFFFF;
+
+  padding: 28px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+}
+
+.word-explanation h2 {
+  margin-bottom: 12px;
+
+  font-size: 22px;
+}
+
+.word-explanation > p {
+  color: #6B7280;
+  line-height: 1.5;
+}
+
+.word-placeholder {
+  margin-top: 24px;
+
+  padding: 24px;
+
+  border-radius: 16px;
+
+  background: #F8F7FC;
+
+  text-align: center;
+}
+
+.word-placeholder span {
+  font-size: 32px;
+}
+
+.word-placeholder p {
+  margin-top: 12px;
+
+  color: #6B7280;
+}
