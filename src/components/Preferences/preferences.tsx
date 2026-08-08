@@ -14,6 +14,7 @@ const options = [
     title: "Explain Difficult Words",
     description:
       "Get simple definitions for unfamiliar vocabulary.",
+    path: "/vocabulary",
   },
   {
     icon: "✨",

@@ -18,14 +18,14 @@
 
 .preferences-header h1 {
   font-size: 34px;
-  color: #1F2937;
+  color: #203858;
 }
 
 
 .preferences-header p {
   margin-top: 16px;
   font-size: 18px;
-  color: #6B7280;
+  color: #1F2937;
   line-height: 1.5;
 }
 
@@ -66,6 +66,6 @@
 
 .preference-card p {
   margin-top: 10px;
-  color: #6B7280;
+  color: #171f30;
   line-height: 1.5;
 }
