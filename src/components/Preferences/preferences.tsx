@@ -1,4 +1,5 @@
 import "./Preferences.css";
+import { useNavigate } from "react-router-dom";
 
 const options = [
   {
@@ -28,6 +29,7 @@ const options = [
 ];
 
 function Preferences() {
+    const navigate = useNavigate();
   return (
     <main className="preferences-page">
 
@@ -63,10 +65,15 @@ function Preferences() {
 
       </section>
 
-
-      <button className="primary-button">
+      <button
+        className="primary-button"
+        onClick={() => navigate("/reading-mode")}
+        >
         Continue
-      </button>
+    </button>
+
+
+     
 
     </main>
   );
