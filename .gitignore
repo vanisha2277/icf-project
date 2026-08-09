@@ -25,3 +25,9 @@ dist-ssr
 docs/
 AGENTS.md
 CLAUDE.md
+.env
+backend/.env
+backend/venv/
+venv/
+__pycache__/
+*.pyc
