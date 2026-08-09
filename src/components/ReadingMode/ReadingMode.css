@@ -1,0 +1,130 @@
+.reading-page {
+  min-height: 100vh;
+  padding: 40px 48px;
+  background: #F8F7FC;
+  color: #1F2937;
+}
+
+.reading-header {
+  max-width: 1100px;
+  margin: 0 auto 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.eyebrow {
+  margin-bottom: 6px;
+  color: #6D5EF9;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.reading-header h1 {
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+.reading-layout {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.reading-controls {
+  background: #FFFFFF;
+  padding: 24px;
+  border-radius: 20px;
+
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+}
+
+.reading-controls h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.setting {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 12px 0;
+
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.setting input {
+  width: 18px;
+  height: 18px;
+}
+
+.listen-button {
+  width: 100%;
+  margin-top: 20px;
+
+  padding: 13px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: #6D5EF9;
+  color: #FFFFFF;
+
+  font-family: "Lexend", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.reading-content {
+  background: #FFFFFF;
+  padding: 48px;
+  border-radius: 20px;
+
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.reading-content .subject {
+  margin-bottom: 8px;
+
+  color: #6D5EF9;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.reading-content h2 {
+  margin-bottom: 24px;
+
+  color: #1F2937;
+  font-size: 30px;
+}
+
+.reading-content p {
+  margin-bottom: 24px;
+}
+
+.secondary-button {
+  padding: 12px 20px;
+
+  border: 2px solid #6D5EF9;
+  border-radius: 12px;
+
+  background: #FFFFFF;
+  color: #6D5EF9;
+
+  font-family: "Lexend", sans-serif;
+  font-weight: 600;
+
+  cursor: pointer;
+}
