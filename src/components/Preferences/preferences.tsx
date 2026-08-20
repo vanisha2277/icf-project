@@ -33,6 +33,7 @@ const options = [
     title: "Step-by-Step Math",
     description:
       "Break down problems into smaller steps.",
+    path: "/math-mode",
   },
 ];
 

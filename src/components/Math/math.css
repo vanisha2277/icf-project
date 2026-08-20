@@ -12,11 +12,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color:#1F2937;
 }
 
 .math-header h1 {
   font-size: 30px;
   line-height: 1.5;
+  color:#1F2937;
 }
 
 .math-layout {
@@ -45,6 +47,7 @@
 .problem-card h2 {
   margin-bottom: 24px;
   font-size: 24px;
+  color:#6D5EF9;
 }
 
 .problem {
@@ -65,7 +68,7 @@
 .instruction {
   margin-top: 24px;
 
-  color: #6B7280;
+  color: #1F2937;
 
   line-height: 1.5;
 }

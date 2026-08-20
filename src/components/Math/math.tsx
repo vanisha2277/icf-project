@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "./MathMode.css";
+import "./Math.css";
 
 function MathMode() {
   const navigate = useNavigate();
