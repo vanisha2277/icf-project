@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color:#1F2937; 
 }
 
 .eyebrow {
@@ -24,6 +25,7 @@
 .reading-header h1 {
   font-size: 30px;
   line-height: 1.5;
+  color:#1F2937;
 }
 
 .reading-layout {
@@ -47,6 +49,7 @@
 .reading-controls h2 {
   margin-bottom: 20px;
   font-size: 20px;
+  color:#6D5EF9;
 }
 
 .setting {
