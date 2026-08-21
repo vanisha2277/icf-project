@@ -1,3 +1,4 @@
+/* ICF 2026 AI disclosure: built with AI assistance. */
 .reading-page {
   min-height: 100vh;
   padding: 40px 48px;
@@ -130,4 +131,39 @@
   font-weight: 600;
 
   cursor: pointer;
+}
+
+.reading-textarea {
+  width: 100%;
+  margin-top: 16px;
+  padding: 12px;
+
+  border: 1px solid #E5E4E7;
+  border-radius: 12px;
+
+  background: #FFFFFF;
+  color-scheme: light;
+
+  font-family: "Lexend", sans-serif;
+  font-size: 14px;
+  color: #1F2937;
+
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.listen-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.read-error {
+  margin-bottom: 24px;
+  color: #B91C1C;
+  font-weight: 600;
+}
+
+.read-word.active {
+  background: rgba(109, 94, 249, 0.18);
+  border-radius: 4px;
 }
