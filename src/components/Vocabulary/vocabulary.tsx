@@ -16,7 +16,7 @@ function Vocabulary() {
           className="secondary-button"
           onClick={() => navigate("/preferences")}
         >
-          Back to Preferences
+          Exit Vocab
         </button>
       </header>
 

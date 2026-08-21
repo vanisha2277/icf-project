@@ -16,7 +16,7 @@ function MathMode() {
           className="secondary-button"
           onClick={() => navigate("/preferences")}
         >
-          Back to Preferences
+          Exit Math Mode
         </button>
       </header>
 
