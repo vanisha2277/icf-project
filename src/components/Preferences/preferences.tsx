@@ -42,6 +42,12 @@ function Preferences() {
 
   return (
     <main className="preferences-page">
+      <button
+      className="back-button"
+      onClick={() => navigate("/")}
+    >
+     Back to Home
+    </button>
       <section className="preferences-header">
         <h1>How do you learn best?</h1>
 
