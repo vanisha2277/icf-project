@@ -21,6 +21,7 @@ const options = [
     title: "Highlight Key Ideas",
     description:
       "Focus on the most important information.",
+      path: "/key_ideas",
   },
   {
     icon: "🔊",
