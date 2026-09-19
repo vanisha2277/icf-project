@@ -23,12 +23,7 @@ const options = [
       "Focus on the most important information.",
       path: "/key_ideas",
   },
-  {
-    icon: "🔊",
-    title: "Listen Along",
-    description:
-      "Hear text read aloud with reading support.",
-  },
+ 
   {
     icon: "➗",
     title: "Step-by-Step Math",

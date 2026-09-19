@@ -19,7 +19,7 @@ function KeyIdeas() {
           className="back-button"
           onClick={() => navigate("/preferences")}
         >
-          ← Back to Preferences
+          Exit Key Ideas
         </button>
       </header>
 

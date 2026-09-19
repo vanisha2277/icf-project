@@ -32,6 +32,20 @@
   align-items: start;
 }
 
+.back-button {
+  border: none;
+  border-radius: 12px;
+  padding: 12px 18px;
+  background: white;
+  color: #6D5EF9;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 3px 12px rgba(31, 41, 55, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
 .problem-card,
 .steps-card {
   background: #FFFFFF;

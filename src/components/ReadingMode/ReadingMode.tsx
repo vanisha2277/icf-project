@@ -188,7 +188,7 @@ function ReadingMode() {
         </div>
 
         <button
-          className="secondary-button"
+          className="back-button"
           onClick={() => {
             stopSpeaking();
             navigate("/preferences");
