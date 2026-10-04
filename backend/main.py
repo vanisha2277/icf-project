@@ -1,7 +1,15 @@
 # ICF 2026 AI disclosure: built with AI assistance.
+from pathlib import Path
+
+from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+
+from backend.routers import define_word as define_word_router
+from backend.routers import simplify as simplify_router
 from backend.routers import transform as transform_router
+
+load_dotenv(Path(__file__).resolve().parent / ".env")
 
 app = FastAPI(title="ICF Project - Reading Mode Backend")
 
@@ -17,6 +25,8 @@ app.add_middleware(
 )
 
 app.include_router(transform_router.router)
+app.include_router(simplify_router.router)
+app.include_router(define_word_router.router)
 
 
 @app.get("/health")

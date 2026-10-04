@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "ICF Reading Support",
+  "version": "0.0.1",
+  "description": "Reading support: bionic text, chunking, and verified simplification.",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Reading Support"
+  },
+  "host_permissions": [
+    "http://localhost:8000/*",
+    "http://127.0.0.1:8000/*"
+  ]
+}
