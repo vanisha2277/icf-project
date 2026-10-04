@@ -9,6 +9,30 @@
   align-items: center;
 }
 
+.back-button {
+  align-self: flex-start;
+
+  margin-bottom: 24px;
+
+  padding: 10px 16px;
+
+  border: 2px solid #6D5EF9;
+  border-radius: 10px;
+
+  background: #FFFFFF;
+  color: #6D5EF9;
+
+  font-family: "Lexend", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color:#F0EEFF;
+
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background: #F0EEFF;
+}
 
 .preferences-header {
   text-align: center;

@@ -8,11 +8,11 @@
 .math-header {
   max-width: 1100px;
   margin: 0 auto 32px;
+  color:#1F2937;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color:#1F2937;
 }
 
 .math-header h1 {
@@ -32,11 +32,24 @@
   align-items: start;
 }
 
+.back-button {
+  border: none;
+  border-radius: 12px;
+  padding: 12px 18px;
+  background: white;
+  color: #6D5EF9;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 3px 12px rgba(31, 41, 55, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
 .problem-card,
 .steps-card {
   background: #FFFFFF;
   border-radius: 20px;
-
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
 }
 
@@ -74,7 +87,7 @@
 .steps-card h2 {
   margin-bottom: 28px;
   font-size: 24px;
-  color:#1F2937;
+  color:#030508;
 }
 
 .math-step {

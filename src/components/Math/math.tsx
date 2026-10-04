@@ -13,7 +13,7 @@ function MathMode() {
         </div>
 
         <button
-          className="secondary-button"
+          className="back-button"
           onClick={() => navigate("/preferences")}
         >
           Exit Math Mode

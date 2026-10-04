@@ -21,13 +21,9 @@ const options = [
     title: "Highlight Key Ideas",
     description:
       "Focus on the most important information.",
+      path: "/key_ideas",
   },
-  {
-    icon: "🔊",
-    title: "Listen Along",
-    description:
-      "Hear text read aloud with reading support.",
-  },
+ 
   {
     icon: "➗",
     title: "Step-by-Step Math",
@@ -42,6 +38,12 @@ function Preferences() {
 
   return (
     <main className="preferences-page">
+      <button
+      className="back-button"
+      onClick={() => navigate("/")}
+    >
+     Back to Home
+    </button>
       <section className="preferences-header">
         <h1>How do you learn best?</h1>
 

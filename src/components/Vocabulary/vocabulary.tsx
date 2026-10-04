@@ -13,7 +13,7 @@ function Vocabulary() {
         </div>
 
         <button
-          className="secondary-button"
+          className="back-button"
           onClick={() => navigate("/preferences")}
         >
           Exit Vocab
