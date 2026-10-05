@@ -112,3 +112,246 @@
   margin-top: 12px;
   color: #0e131b;
 }
+
+/* ============================= */
+/* VOCABULARY INTERACTION */
+/* ============================= */
+
+.vocabulary-subtitle {
+  max-width: 650px;
+
+  margin: 10px 0 0;
+
+  color: #667085;
+
+  font-size: 0.9rem;
+
+  line-height: 1.55;
+}
+
+
+/* ============================= */
+/* CLICKABLE VOCABULARY WORDS */
+/* ============================= */
+
+.vocab-word {
+  display: inline;
+
+  padding: 2px 5px;
+
+  border: none;
+  border-radius: 6px;
+
+  background: #eeebff;
+
+  color: #5b4ed6;
+
+  font-family: inherit;
+
+  font-size: inherit;
+  font-weight: 650;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.vocab-word:hover {
+  background: #ddd8ff;
+
+  color: #493bbd;
+}
+
+.vocab-word:focus-visible {
+  outline: 3px solid #a59df7;
+
+  outline-offset: 2px;
+}
+
+.vocab-word.selected-word {
+  background: #6d5ef9;
+
+  color: white;
+}
+
+
+/* ============================= */
+/* READING HINT */
+/* ============================= */
+
+.reading-hint {
+  margin-top: 28px;
+
+  padding: 12px 14px;
+
+  border-radius: 11px;
+
+  background: #f8f7ff;
+
+  color: #667085;
+
+  font-size: 0.76rem;
+
+  line-height: 1.5;
+}
+
+
+/* ============================= */
+/* SELECTED WORD */
+/* ============================= */
+
+.selected-word-label {
+  margin: 0 0 6px;
+
+  color: #8b82e8;
+
+  font-size: 0.68rem;
+
+  font-weight: 700;
+
+  letter-spacing: 1.2px;
+}
+
+.word-explanation > h2 {
+  margin: 0 0 18px;
+
+  color: #26324a;
+
+  font-size: 1.35rem;
+
+  line-height: 1.35;
+}
+
+
+/* ============================= */
+/* DEFINITION BOX */
+/* ============================= */
+
+.definition-box {
+  margin-top: 4px;
+
+  padding: 16px;
+
+  border-radius: 14px;
+
+  background: #f4f2ff;
+
+  border-left: 4px solid #6d5ef9;
+}
+
+.definition-box h3,
+.example-box h3 {
+  margin: 0 0 7px;
+
+  color: #26324a;
+
+  font-size: 0.82rem;
+}
+
+.definition-box p,
+.example-box p {
+  margin: 0;
+
+  color: #667085;
+
+  font-size: 0.8rem;
+
+  line-height: 1.6;
+}
+
+
+/* ============================= */
+/* EXAMPLE BOX */
+/* ============================= */
+
+.example-box {
+  margin-top: 14px;
+
+  padding: 16px;
+
+  border-radius: 14px;
+
+  background: #f8f7ff;
+}
+
+
+/* ============================= */
+/* CLEAR / CHOOSE ANOTHER */
+/* ============================= */
+
+.clear-word-button {
+  width: 100%;
+
+  margin-top: 18px;
+
+  padding: 11px 16px;
+
+  border: 2px solid #6d5ef9;
+
+  border-radius: 11px;
+
+  background: white;
+
+  color: #6d5ef9;
+
+  font-family: inherit;
+
+  font-size: 0.8rem;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.clear-word-button:hover {
+  background: #6d5ef9;
+
+  color: white;
+}
+
+.clear-word-button:focus-visible {
+  outline: 3px solid #a59df7;
+
+  outline-offset: 3px;
+}
+
+
+/* ============================= */
+/* PLACEHOLDER */
+/* ============================= */
+
+.word-placeholder {
+  margin-top: 22px;
+
+  padding: 22px 16px;
+
+  border-radius: 14px;
+
+  background: #f8f7ff;
+
+  text-align: center;
+}
+
+.word-placeholder span {
+  display: block;
+
+  margin-bottom: 8px;
+
+  font-size: 1.5rem;
+}
+
+.word-placeholder p {
+  margin: 0;
+
+  color: #667085;
+
+  font-size: 0.78rem;
+
+  line-height: 1.5;
+}
