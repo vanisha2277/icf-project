@@ -205,4 +205,195 @@
   .key-ideas-header h1 {
     font-size: 1.8rem;
   }
+  /* ============================= */
+/* INTERACTIVE KEY IDEAS */
+/* ============================= */
+
+.article-text p {
+  padding: 10px;
+  border-radius: 10px;
+  transition:
+    background 0.25s ease,
+    opacity 0.25s ease;
+}
+
+.highlighted-paragraph {
+  background: #eeebff;
+  outline: 2px solid #d8d2ff;
+  color: #26324a;
+}
+
+.dimmed-paragraph {
+  opacity: 0.45;
+}
+
+/* Instructions */
+
+.instruction-text {
+  margin: -10px 0 20px;
+  color: #667085;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+/* Interactive idea buttons */
+
+.idea {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+
+  padding: 17px;
+
+  border: 2px solid transparent;
+  border-radius: 16px;
+
+  background: #f8f7ff;
+  color: inherit;
+
+  text-align: left;
+  font-family: inherit;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.idea:hover {
+  transform: translateY(-1px);
+  border-color: #d8d2ff;
+}
+
+.idea:focus-visible {
+  outline: 3px solid #a59df7;
+  outline-offset: 3px;
+}
+
+.selected-idea {
+  background: #eeebff;
+  border-color: #6d5ef9;
+}
+
+.idea-content {
+  min-width: 0;
+}
+
+.idea-status {
+  display: inline-block;
+
+  margin-top: 8px;
+
+  color: #6d5ef9;
+
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+/* Selected idea message */
+
+.selected-message {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 12px;
+
+  margin-top: 24px;
+  padding: 14px 16px;
+
+  border-radius: 12px;
+
+  background: #f8f7ff;
+
+  color: #4b5563;
+
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.selected-message button {
+  border: none;
+  background: transparent;
+
+  color: #6d5ef9;
+
+  font-family: inherit;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.selected-message button:focus-visible {
+  outline: 3px solid #a59df7;
+  outline-offset: 3px;
+}
+
+/* Show Context button */
+
+.context-button {
+  width: 100%;
+
+  margin-top: 22px;
+  padding: 13px 18px;
+
+  border: 2px solid #6d5ef9;
+  border-radius: 12px;
+
+  background: white;
+  color: #6d5ef9;
+
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.context-button:hover {
+  background: #6d5ef9;
+  color: white;
+}
+
+.context-button:focus-visible {
+  outline: 3px solid #a59df7;
+  outline-offset: 3px;
+}
+
+/* Context information */
+
+.context-box {
+  margin-top: 18px;
+  padding: 18px;
+
+  border-radius: 15px;
+
+  background: #f4f2ff;
+
+  border-left: 4px solid #6d5ef9;
+}
+
+.context-box h3 {
+  margin: 0 0 8px;
+
+  color: #26324a;
+
+  font-size: 0.95rem;
+}
+
+.context-box p {
+  margin: 0 0 10px;
+
+  color: #667085;
+
+  font-size: 0.84rem;
+  line-height: 1.6;
+}
+
+.context-box p:last-child {
+  margin-bottom: 0;
+}
 }
